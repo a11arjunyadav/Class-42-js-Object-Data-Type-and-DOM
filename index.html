@@ -7,5 +7,44 @@
     </head>
     <body>
         
+
+        <script>
+            //Lets creat a JS object
+            var student1={
+                //1. Property:value
+                fname:'arjun',
+                lname:"yadav",
+                age:25,
+                salry:50000,
+                address:"Betul",
+                qualification:"BCA",
+                //function defination
+                
+                getMyFullAdress(){
+                    console.log("Hi"+this.fname+','+this.lname+","+this.age+','+salry);
+                }
+
+            }//Student1 is a type of Js object type
+            //var student1='arjun yadav betul mp india'; // Student2 is a type of string
+            const studnet3= 40; //Student3 is a type of number
+
+            var student4={
+                fname:'rakesh',
+                lname:"sinotia",
+                age:20,
+                salry:10000,
+                address:'Aanad nagar bhopal',
+                getAddress(){
+
+                    //Every function returne somthink
+                    return this.address;
+                }
+            }
+            //How to access this information from javascript
+            console.log(student1.fname);
+            console.log(student1.getMyFullAdress());
+            console.log(student4.fname);
+            console.log(student4.getaddress());
+        </script>
     </body>
 </html>
