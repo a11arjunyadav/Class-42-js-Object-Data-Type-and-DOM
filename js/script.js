@@ -43,7 +43,7 @@ const car = {
 }
 
 //console.log(car1.getFullDetail());
-console.log(car1.brand); //object proparty
-console.log(car2['brand']); //object[proparty]
+console.log(car1.brand);  //object proparty
+console.log(car2['brand']);  //object[proparty]
 let x="brand";
-console.log(car3[x]); //object[expration] is an expration
+console.log(car3[x]);  //object[expration] is an expration
